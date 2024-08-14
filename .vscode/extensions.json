@@ -32,9 +32,13 @@
     "mkxml.vscode-filesize",
     "aaron-bond.better-comments",
     "GrapeCity.gc-excelviewer",
-    "mutantdino.resourcemonitor"
+    "mutantdino.resourcemonitor",
     //"ms-python.vscode-pylance",
     //"ms-python.mypy-type-checker"
+    "eamodio.gitlens",
+    "streetsidesoftware.code-spell-checker",
+    "mhutchie.git-graph",
+    "donjayamanne.githistory"
   ],
   "unwantedRecommendations": ["ms-python.autopep8", "ms-python.flake8"]
 }
