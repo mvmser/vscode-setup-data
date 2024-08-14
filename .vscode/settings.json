@@ -11,6 +11,7 @@
   "editor.inlineSuggest.enabled": true,
   "editor.defaultFormatter": "ms-python.black-formatter",
   "editor.rulers": [79, 99, 120],
+  "editor.trimAutoWhitespace": true,
 
   // IntelliSense & Code Assistance
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -67,5 +68,8 @@
 
   "python.analysis.typeCheckingMode": "off",
   "python.testing.pytestEnabled": true,
-  "isort.args": ["--profile", "black"]
+  "isort.args": ["--profile", "black"],
+
+  // Trim trailing whitespace
+  "files.trimTrailingWhitespace": true
 }
