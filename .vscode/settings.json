@@ -1,0 +1,71 @@
+{
+  // Editor Settings
+  "editor.suggestSelection": "first",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "editor.inlineSuggest.enabled": true,
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "editor.rulers": [79, 99, 120],
+
+  // IntelliSense & Code Assistance
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // Workbench Settings
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.editor.editorActionsLocation": "titleBar",
+
+  // JSON & File Limits
+  "json.maxItemsComputed": 20000,
+
+  // Notebook Settings
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+
+  // Language-Specific Formatter Settings
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.rulers": [79, 99, 120]
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+
+  "python.analysis.typeCheckingMode": "off",
+  "python.testing.pytestEnabled": true,
+  "isort.args": ["--profile", "black"]
+}
